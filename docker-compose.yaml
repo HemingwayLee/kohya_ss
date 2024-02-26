@@ -27,10 +27,10 @@ services:
       - ./.cache/nv:/home/1000/.nv
       - ./.cache/keras:/home/1000/.keras
       - ./.cache/config:/home/1000/.config
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              capabilities: [gpu]
-              device_ids: ['all']
+#    deploy:
+#      resources:
+#        reservations:
+#          devices:
+#            - driver: nvidia
+#              capabilities: [gpu]
+#              device_ids: ['all']

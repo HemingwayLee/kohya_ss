@@ -19,4 +19,4 @@ rdzv_backend: static
 same_network: true
 tpu_name: null
 tpu_zone: null
-use_cpu: false
+use_cpu: true

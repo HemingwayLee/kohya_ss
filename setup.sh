@@ -606,7 +606,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Installing Python-TK 3.10 if not found."
   if ! brew ls --versions python-tk@3.10 >/dev/null; then
     echo "Installing Python TK 3.10."
-    brew install python-tk@3.10 >&3
+    # brew install python-tk@3.10 >&3
   else
     echo "Python Tkinter 3.10 found!"
   fi
